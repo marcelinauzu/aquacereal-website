@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aquacereal Delights</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
+    />
+    <style>
+      body {
+        background-color: #381d1d;
+        color: #fffaf0;
+      }
+      main.container {
+        background-color: #f5f5dc;
+        padding: 2rem;
+        border-radius: 10px;
+        color: #381d1d;
+      }
+      nav.container-fluid {
+        background-color: #4d2b2b;
+      }
+      nav ul li a,
+      nav ul li strong {
+        color: #fffaf0;
+      }
+      footer {
+        margin-top: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="container-fluid">
+      <ul>
+        <li><strong>Aquacereal</strong></li>
+      </ul>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#" role="button">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main class="container">
+      <div class="grid">
+        <section>
+          <hgroup>
+            <h2>Organic Cereal Blends</h2>
+            <h3>Nature’s best, from our kitchen to yours</h3>
+          </hgroup>
+          <p>
+            Aquacereal delivers nutrient-rich blends of whole grains, quinoa,
+            chia seeds, flaxseed, dried fruits, nuts, and sweeteners like
+            honey and dates. Every bite is tailored to nourish, energize, and
+            delight.
+          </p>
+          <figure>
+            <img
+              src="https://images.unsplash.com/photo-1505250469679-203ad9ced0cb?auto=format&fit=crop&w=800&q=80"
+              alt="Organic cereal blend"
+            />
+            <figcaption>
+              <a
+                href="https://unsplash.com/photos/brown-cereals-in-jar-M2Ju4BzB3lQ"
+                target="_blank"
+                >Image by Maddi Bazzocco</a
+              >
+            </figcaption>
+          </figure>
+          <h3>Handcrafted Wellness</h3>
+          <p>
+            Our cereals and teas are handmade in small batches to preserve
+            nutrients and taste. With no preservatives or artificial
+            ingredients, you're enjoying pure, wholesome food.
+          </p>
+          <h3>Explore Our Teas</h3>
+          <p>
+            Our organic health teas are infused with healing herbs and dried
+            botanicals. Sip your way to clarity, calm, and overall well-being.
+          </p>
+        </section>
+      </div>
+    </main>
+
+    <section aria-label="Subscribe example">
+      <div class="container">
+        <article>
+          <hgroup>
+            <h2>Join Our Wellness Circle</h2>
+            <h3>Be the first to hear about new blends and seasonal tips</h3>
+          </hgroup>
+          <form class="grid">
+            <input type="text" placeholder="Your first name" required />
+            <input type="email" placeholder="Your email address" required />
+            <button type="submit" onclick="event.preventDefault()">Subscribe</button>
+          </form>
+        </article>
+      </div>
+    </section>
+
+    <footer class="container">
+      <small>
+        <a href="#">Privacy Policy</a> • <a href="#">Terms & Conditions</a>
+      </small>
+    </footer>
+  </body>
+</html>
